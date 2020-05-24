@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Atividade 01</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+
+  <body>
+    <div class="container container-layout">
+      <div class="wrap-layout p-l-55 p-r-55 p-t-80 p-b-30">
+        <h1 class="layout-title p-b-37">Seletor de Cores</h1>
+        <div id="Red">
+          <span><h5>(R) Vermelho</h5></span>
+          <input
+            class="slider sliderR"
+            id="R"
+            type="range"
+            name="rangeInputR"
+            value="0"
+            min="0"
+            max="255"
+          />
+          <input type="text" id="valueR" value="0" disabled="disabled" />
+        </div>
+        <br />
+        <div id="Green">
+          <h5>(G) Verde</h5>
+          <input
+            class="slider sliderG"
+            id="G"
+            type="range"
+            name="rangeInputG"
+            value="0"
+            min="0"
+            max="255"
+          />
+          <input type="text" id="valueG" value="0" disabled="disabled" />
+        </div>
+        <br />
+        <div id="Blue">
+          <h5>(B) Azul</h5>
+          <input
+            class="slider sliderB"
+            id="B"
+            type="range"
+            name="rangeInputB"
+            value="0"
+            min="0"
+            max="255"
+          />
+          <input type="text" id="valueB" value="0" disabled="disabled" />
+        </div>
+        <div id="rectangle">
+          <div class="box" id="box-color"></div>
+        </div>
+        <div id="valuesColor">
+          <input
+            class="valuesRGB"
+            type="text"
+            value=""
+            id="vRGB"
+            disabled="disabled"
+          />
+          <input
+            class="valuesHexa"
+            type="text"
+            value=""
+            id="vHexa"
+            disabled="disabled"
+          />
+        </div>
+      </div>
+    </div>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
