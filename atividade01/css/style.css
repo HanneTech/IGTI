@@ -51,7 +51,7 @@
 }
 
 .wrap-layout {
-  width: 300px;
+  width: 370px;
   background: #fff;
   border-radius: 10px;
   box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
@@ -98,19 +98,20 @@
 .box {
   width: 310px;
   height: 30px;
-  border: 2px solid darkmagenta;
+  border: 1px solid white;
   margin-top: 15px;
 }
 
 #valuesColor {
-  margin-top: 20px;
-  display: flex;
+  margin-top: 5px;
+  display: grid;
   flex-direction: row;
   justify-content: center;
   align-items: center;
 }
 
 .valuesRGB {
+  color: darkmagenta;
   font-size: 14pt;
   width: 170px;
   height: 30px;
@@ -119,6 +120,7 @@
 }
 
 .valuesHexa {
+  color: darkmagenta;
   font-size: 14pt;
   width: 170px;
   height: 30px;
@@ -126,8 +128,18 @@
   text-align: center;
 }
 
+.valuesCMYK {
+  color: darkmagenta;
+  font-size: 14pt;
+  width: 200px;
+  height: 30px;
+  margin-top: 15px;
+  text-align: center;
+}
+
 #valueR {
   font-size: 12pt;
+  text-align: center;
   width: 35px;
   height: 35px;
   border: solid red;
@@ -135,6 +147,7 @@
 
 #valueG {
   font-size: 12pt;
+  text-align: center;
   width: 35px;
   height: 35px;
   border: solid rgb(6, 170, 61);
@@ -142,6 +155,7 @@
 
 #valueB {
   font-size: 12pt;
+  text-align: center;
   width: 35px;
   height: 35px;
   border: solid blue;
@@ -167,7 +181,7 @@
 
 .slider {
   -webkit-appearance: none;
-  width: 80%;
+  width: 65%;
   height: 15px;
   border-radius: 5px;
   background: #d3d3d3;
