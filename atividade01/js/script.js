@@ -45,10 +45,10 @@ function handleInputRangeChange(event) {
   let red = document.getElementById('valueR').value;
   let green = document.getElementById('valueG').value;
   let blue = document.getElementById('valueB').value;
-  let black = 1;
   let color = 'RGB(' + red + ',' + green + ',' + blue + ')';
   document.getElementById('box-color').style.backgroundColor = color;
-  document.getElementById('vRGB').value = color;
+  document.getElementById('vRGB').value =
+    'RGB: ' + red + ', ' + green + ', ' + blue;
   document.getElementById('vHEXA').value =
     'HEXA: #' + RGBtoHexa(red) + RGBtoHexa(green) + RGBtoHexa(blue);
   document.getElementById('vCMYK').value =

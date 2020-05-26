@@ -9,7 +9,7 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  padding: 15px;
+  padding: 10px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -24,8 +24,6 @@
   z-index: -1;
   width: 100%;
   height: 100%;
-  top: 0;
-  left: 0;
   background: rgba(93, 84, 240, 0.5);
   background: -webkit-linear-gradient(
     left,
@@ -51,7 +49,7 @@
 }
 
 .wrap-layout {
-  width: 370px;
+  width: 300px;
   background: #fff;
   border-radius: 10px;
   box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
@@ -66,16 +64,11 @@
   font-family: SourceSansPro-Bold;
   font-size: 40px;
   color: darkmagenta;
-  line-height: 1.2;
   text-align: center;
 }
 
 .p-b-30 {
   padding-bottom: 30px;
-}
-
-.p-b-37 {
-  padding-bottom: 37px;
 }
 
 .p-l-55 {
@@ -84,8 +77,8 @@
 .p-r-55 {
   padding-right: 55px;
 }
-.p-t-80 {
-  padding-top: 80px;
+.p-t-50 {
+  padding-top: 50px;
 }
 
 #rectangle {
@@ -96,7 +89,7 @@
 }
 
 .box {
-  width: 310px;
+  width: 295px;
   height: 30px;
   border: 1px solid white;
   margin-top: 15px;
@@ -117,6 +110,7 @@
   height: 30px;
   margin-top: 15px;
   text-align: center;
+  border: white;
 }
 
 .valuesHexa {
@@ -126,15 +120,17 @@
   height: 30px;
   margin-top: 15px;
   text-align: center;
+  border: white;
 }
 
 .valuesCMYK {
   color: darkmagenta;
   font-size: 14pt;
-  width: 200px;
+  width: 180px;
   height: 30px;
   margin-top: 15px;
   text-align: center;
+  border: white;
 }
 
 #valueR {
