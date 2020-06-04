@@ -57,7 +57,7 @@ function showInterface() {
 
 function addEvents() {
   inputSearch.addEventListener('keyup', handleKeyUP);
-  btnSearch.addEventListener('click', WhichButton);
+  btnSearch.addEventListener('click', clickButton);
 }
 
 function handleKeyUP(event) {
@@ -74,7 +74,7 @@ function handleKeyUP(event) {
   }
 }
 
-function WhichButton() {
+function clickButton() {
   const filterText = document.querySelector('#inputSearch').value;
 
   if (filterText.trim() !== '') {
