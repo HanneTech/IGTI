@@ -1,0 +1,68 @@
+<html>
+  <head>
+    <title>Atividade 02</title>
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <link rel="stylesheet" href="./materialize/css/materialize.css" />
+    <link
+      rel="import"
+      href=" https://randomuser.me/api/?seed=javascript&results=100&nat=BR&noinfo"
+    />
+  </head>
+
+  <body>
+    <div id="container" class="container">
+      <div>
+        <img src="../images/header.png" alt="" class="header" />
+      </div>
+      <div id="divWait" class="flex-row flex-center">
+        <div class="preloader-wrapper big active">
+          <div class="spinner-layer spinner-blue-only">
+            <div class="circle-clipper left">
+              <div class="circle"></div>
+            </div>
+            <div class="gap-patch">
+              <div class="circle"></div>
+            </div>
+            <div class="circle-clipper right">
+              <div class="circle"></div>
+            </div>
+          </div>
+        </div>
+        <span style="margin-left: 10px; font-size: 1.5rem;">Aguarde...</span>
+      </div>
+      <div id="divInterface" class="hidden">
+        <div class="flex-row">
+          <div class="input-field input">
+            <!-- <label for="inputSearch">Busca</label> -->
+            <input
+              id="inputSearch"
+              type="text"
+              data-length="50"
+              placeholder="Buscar"
+            />
+          </div>
+          <button
+            id="btnSearch"
+            class="waves-effect waves-light btn-small"
+            name="action"
+            type="submit"
+          >
+            Busca
+          </button>
+        </div>
+
+        <div class="flex-row flex-aling-top resultado">
+          <div id="panelUsers" class="panel card">
+            <h5>Nenhum Usuário</h5>
+          </div>
+
+          <div id="panelStatistics" class="panel card">
+            <h5>Estatísticas</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="JS/script.js"></script>
+  </body>
+</html>
